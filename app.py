@@ -127,7 +127,6 @@ def login():
             st.session_state.page = "signup"
             st.rerun()
 
-        st.info("Default login: admin / 1234")
         st.caption(f"User file location: {USERS_FILE}")
         st.markdown('</div>', unsafe_allow_html=True)
 
